@@ -18,6 +18,8 @@ Australia based · working US and European hours · [burl.au](https://burl.au/)
 | Repo | What it is |
 |---|---|
 | [arcserve](https://github.com/skipzx-lab/arcserve) | OpenAI-compatible OpenVINO GenAI server for Intel Arc. Took Gemma 4 26B-A4B on one Arc Pro B60 from ~20 tok/s (vLLM) to ~60 tok/s single stream and ~130 tok/s across 4 streams, with working tool calls for coding agents. |
+| [bandscribe](https://github.com/skipzx-lab/bandscribe) | Turns any song (Suno, Udio, anything) into parts you can play: chord sheet with timed lyrics, guitar and bass tabs in any tuning, drums, piano with a live play-along keyboard, melody and MIDI. Stem separation and transcription run locally on NVIDIA, AMD, Intel Arc, Apple or CPU. |
+| [model-painter](https://github.com/skipzx-lab/model-painter) | Paints 3D-print models for multi-colour printing, by hand or by describing the look to Claude. Exports a 3MF that Elegoo, Orca and Bambu slicers open already painted. |
 | [precision-5820-arc-b60-large-bar](https://github.com/skipzx-lab/precision-5820-arc-b60-large-bar) | Fix for "Resizable BAR not detected" on an Arc Pro B60 in a Dell Precision 5820: one hidden BIOS setting. |
 
 ## Recent work
@@ -31,4 +33,4 @@ Australia based · working US and European hours · [burl.au](https://burl.au/)
 ## Stack
 
 Python · TypeScript · SQL · FastAPI · Node · React · Next.js · Anthropic and OpenAI APIs · RAG · Postgres ·
-Supabase · Firebase · Oracle Cloud · Vercel · OpenVINO · vLLM · llama.cpp
+Supabase · Firebase · Oracle Cloud · Vercel · OpenVINO · vLLM · llama.cpp · PyTorch · Three.js
